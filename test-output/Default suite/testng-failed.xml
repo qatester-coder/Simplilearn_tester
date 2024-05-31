@@ -7,7 +7,6 @@
         <methods>
           <include name="QuitBrowser"/>
           <include name="LoginSuccessTest"/>
-          <include name="LogiFailureTest"/>
           <include name="SetUp"/>
         </methods>
       </class> <!-- testcases.LoginTest -->
