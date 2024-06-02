@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: testcases.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.62 s -- in testcases.LoginTest
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 182.059 s <<< FAILURE! - in testcases.LoginTest
+SetUp(testcases.LoginTest)  Time elapsed: 181.713 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-HOQQ6B4', ip: '192.168.1.133'
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.util.concurrent.TimeoutException
+
